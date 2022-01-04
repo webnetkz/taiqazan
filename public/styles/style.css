@@ -1,0 +1,159 @@
+/*
+    Z-INDEX MAP
+
+    .signin - 99
+*/
+:root {
+    --bgColor: rgb(19, 31, 34);
+    --bgTwoColor: rgb(32, 47, 54);
+    --bgThreeColor: rgb(55, 70, 79);
+    --whiteColor: rgb(245, 245, 245);
+    --mainColor: rgb(88, 204, 2);
+    --mainTwoColor: rgb(147, 211, 51);
+    --grayColor: rgb(81, 100, 107);
+    --grayTwoColor: #37464f;
+    --blueColor: #1cb0f6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: sans-serif;
+    background-color: var(--bgColor);
+    scroll-behavior: smooth;
+    overflow-x: hidden; 
+    color: var(--whiteColor);
+    transition-duration: 500ms;
+}
+.logo {
+    position: fixed;
+    top: 20vh;
+    left: calc(100vw - 87px - 50vw);
+}
+.description {
+    position: fixed;
+    top: 50vh;
+    text-align: center;
+    width: 100vw;
+}
+.description > h2 {
+    color: var(--mainTwoColor);
+    font-family: 'Fredoka One', cursive;
+}
+.description > p {
+    margin-top: 20px;
+    color: var(--grayColor);
+    font-size: 0.9rem;
+}
+.btn {
+    display: block;
+    width: 96vw;
+    margin-left: 2vw;
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 9px;
+    font-size: 0.7rem;
+    background-color: var(--mainTwoColor);
+    color: var(--bgColor);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: 900;
+    border-bottom: 3px solid var(--mainColor);
+    transition-duration: 500ms;
+    text-align: center;
+}
+.btn-cl {
+    display: block;
+    width: 96vw;
+    margin-left: 2vw;
+    margin: 10px;
+    border: 2px solid var(--grayColor);
+    border-radius: 9px;
+    font-size: 0.7rem;
+    background-color: var(--bgColor);
+    color: var(--mainTwoColor);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: 900;
+    border-bottom: 3px solid var(--grayColor);
+    text-align: center;
+}
+.btn-gray {
+    display: block;
+    width: 96vw;
+    margin-left: 2vw;
+    margin: 10px;
+    border: 2px solid var(--bgThreeColor);
+    border-radius: 9px;
+    font-size: 0.7rem;
+    background-color: var(--bgThreeColor);
+    color: var(--grayColor);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: 900;
+    text-align: center;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--mainColor);
+    border-bottom: 3px solid var(--mainTwoColor);
+}
+.singin {
+    display: flex;
+    color: var(--grayColor);
+    position: fixed;
+    z-index: 99;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--bgColor);
+    text-align: center;
+    flex-direction: column;
+}
+.closeShowSignin {
+    width: 20px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.signinInputs {
+    border: 1px solid var(--grayColor);
+    width: 96vw;
+    margin-left: 2vw;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+.signinInputs input {
+    display: block;
+    font-size: 0.8rem;
+    background-color: var(--bgTwoColor);
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+    font-weight: 500;
+    padding-left: 15px;
+    color: var(--grayColor);
+    outline: none;
+}
+::-webkit-input-placeholder { 
+    color: var(--grayColor);
+}
+.link {
+    display: block;
+    color: var(--blueColor);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+.viewPass {
+    position: absolute;
+    width: 25px;
+    right: 30px;
+    top: 102.5px;
+}
