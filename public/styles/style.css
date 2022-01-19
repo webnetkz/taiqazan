@@ -85,6 +85,7 @@ html, body {
     display: block;
     width: 96vw;
     margin-left: 2vw;
+    margin-right: 2vw;
     margin: 10px;
     border: 2px solid var(--bgThreeColor);
     border-radius: 9px;
@@ -112,7 +113,32 @@ html, body {
     text-align: center;
     flex-direction: column;
 }
+.resetPass {
+    display: flex;
+    color: var(--grayColor);
+    position: fixed;
+    z-index: 99;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--bgColor);
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .inp {
+    display: block;
+    font-size: 0.8rem;
+    background-color: var(--bgTwoColor);
+    width: 96vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border: none;
+    text-align: left;
+    padding: 10px 0;
+    font-weight: 500;
+    padding-left: 15px;
+    color: var(--grayColor);
+    outline: none;
     transition-duration: 500ms;
 }
 .inp:focus {
@@ -138,6 +164,7 @@ html, body {
     background-color: var(--bgTwoColor);
     border: none;
     width: 100%;
+    margin-left: 0;
     text-align: left;
     padding: 10px 0;
     font-weight: 500;
