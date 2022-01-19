@@ -48,10 +48,11 @@ html, body {
     font-size: 0.9rem;
 }
 .btn {
+    box-sizing: border-box;
     display: block;
     width: 96vw;
     margin-left: 2vw;
-    margin: 10px;
+    margin-right: 2vw;
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 9px;
     font-size: 0.7rem;
@@ -68,7 +69,7 @@ html, body {
     display: block;
     width: 96vw;
     margin-left: 2vw;
-    margin: 10px;
+    margin-right: 2vw;
     border: 2px solid var(--grayColor);
     border-radius: 9px;
     font-size: 0.7rem;
@@ -110,6 +111,13 @@ html, body {
     background-color: var(--bgColor);
     text-align: center;
     flex-direction: column;
+}
+.inp {
+    transition-duration: 500ms;
+}
+.inp:focus {
+    font-size: 1rem;
+    background-color: rgb(19, 24, 27);
 }
 .closeShowSignin {
     width: 20px;
