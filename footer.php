@@ -1,5 +1,6 @@
 <?php
 
-    if($_GET['msg']) {
-        echo '<script>showError("'.$_GET['msg'].'");</script>';
-    }
+if($_GET['err']) {
+    echo '<script src="../public/js/error.js"></script>';
+    echo '<script>showError("'.$_GET['err'].'");</script>';
+}

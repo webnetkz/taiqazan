@@ -15,20 +15,20 @@
 </head>
 <body>
  
-    <form action="#" class="singin" method="POST">
+    <form action="../app/signup.php" class="singin" method="POST">
         <div style="height: 40px; display: flex; align-items: center; justify-content: center;">
             <img src="../public/imgs/close.png" class="closeShowSignin" onclick="location.href = '../index.php'">
             <p style="font-weight: 800; font-size: 0.8rem;">Введите данные для регистрации</p>
         </div>
 
         <div class="signinInputs">
-            <input type="text" class="inp" placeholder="Email" style="border-bottom: 1px solid var(--grayTwoColor);border-top-left-radius: 9px;border-top-right-radius: 9px;">
-            <input type="password" class="inp" placeholder="Пароль">
-            <input type="password" class="inp" placeholder="Повторите пароль" style="border-bottom-left-radius: 9px;border-bottom-right-radius: 9px;">
+            <input type="text" name="login" class="inp" placeholder="Email" style="border-bottom: 1px solid var(--grayTwoColor);border-top-left-radius: 9px;border-top-right-radius: 9px;">
+            <input type="password" name="pass" class="inp" placeholder="Пароль">
+            <input type="password" name="pass2" class="inp" placeholder="Повторите пароль" style="border-bottom-left-radius: 9px;border-bottom-right-radius: 9px;">
         </div>
 
         <div style="margin-top: 15px;">
-            <button class="btn-gray">Регистрация</button>
+            <button class="btn-gray" type="submit">Регистрация</button>
         </div>
     </form>
 

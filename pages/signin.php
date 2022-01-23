@@ -22,8 +22,8 @@
         </div>
 
         <div class="signinInputs">
-            <input type="text" class="inp" placeholder="Имя пользователя или email" style="border-bottom: 1px solid var(--grayTwoColor);border-top-left-radius: 9px;border-top-right-radius: 9px;">
-            <input type="password" class="inp" placeholder="Пароль" style="border-bottom-left-radius: 9px;border-bottom-right-radius: 9px;">
+            <input type="text" name="email" class="inp" placeholder="Имя пользователя или email" style="border-bottom: 1px solid var(--grayTwoColor);border-top-left-radius: 9px;border-top-right-radius: 9px;">
+            <input type="password" class="inp" name="pass" placeholder="Пароль" style="border-bottom-left-radius: 9px;border-bottom-right-radius: 9px;">
             <img src="../public/imgs/view.png" class="viewPass" onclick="this.previousSibling.previousSibling.type='text'">
         </div>
 
