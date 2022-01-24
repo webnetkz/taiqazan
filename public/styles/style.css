@@ -204,6 +204,7 @@ footer {
     align-items: center;
     border-top: 1px solid var(--grayColor);
     z-index: 20;
+    background-color: var(--bgColor);
 }
 header {
     position: fixed;
@@ -216,6 +217,7 @@ header {
     align-items: center;
     border-bottom: 2px solid var(--grayColor);
     z-index: 20;
+    background-color: var(--bgColor);
 }
 header .lives img {
     height: 26px;

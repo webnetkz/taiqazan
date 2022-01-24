@@ -51,6 +51,9 @@
             <div class="level"></div>
             <div class="level"></div>
         </div>
+        <div style="text-align: center;">
+            <img src="./public/imgs/screen_1.png" alt="">
+        </div>
     </div>
 
 
