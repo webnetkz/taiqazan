@@ -276,3 +276,22 @@ header .lives img {
     background-size: 70%;
     margin: 10px;
 }
+.levelActive {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 3px;
+    background-image: url('../imgs/logo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70%;
+    margin: 10px;
+    border: 3px solid var(--blueColor);
+    transition-duration: 500ms;
+    animation: levelActiveAnim 3s infinite;
+}
+@keyframes levelActiveAnim {
+    50% {
+        transform: scale(1.1);
+    }
+}

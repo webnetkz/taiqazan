@@ -26,7 +26,7 @@
             <img src="./public/imgs/screen_1.png" alt="">
         </div>
         <div class="container">
-            <div class="level"></div>
+            <div class="levelActive"></div>
         </div>
         <div class="container">
             <div class="level"></div>
