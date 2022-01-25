@@ -1,10 +1,10 @@
 <?php
 
 $config = [
-	'host' => '127.0.0.1',
+	'host' => 'localhost',
 	'db_name' => 'taiqazan',
 	'db_user' => 'root',
-	'db_pass' => '',
+	'db_pass' => 'root',
 ];
 
 // Данные для подключения к базе данных

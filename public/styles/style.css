@@ -138,7 +138,7 @@ html, body {
     padding: 10px 0;
     font-weight: 500;
     padding-left: 15px;
-    color: var(--grayColor);
+    color: var(--blueColor);
     outline: none;
     transition-duration: 500ms;
 }

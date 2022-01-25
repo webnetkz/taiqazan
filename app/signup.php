@@ -5,6 +5,9 @@ require_once './libs/settings.php';
 
 if(!empty($_POST['login']) && isset($_POST['login'])) {
 
+    session_start();
+    $_SESSION['login'] = $_POST['login'];
+
     $checkLogin = $pdo->query('SELECT `login` FROM users WHERE `login` = "'.$_POST['login'].'"');
     $checkLogin = $checkLogin->fetch(PDO::FETCH_ASSOC);
 
