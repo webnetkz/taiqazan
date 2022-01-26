@@ -59,16 +59,13 @@
 
     <footer>
         <div class="footerElement">
-            <img src="./public/imgs/house.png" alt="hourse">
+            <img src="./public/imgs/home.png" alt="hourse">
         </div>
         <div class="footerElement">
-            <img src="./public/imgs/house_bg.png" alt="hourse">
+            <img src="./public/imgs/profile.png" alt="hourse">
         </div>
         <div class="footerElement">
-            <img src="./public/imgs/house_bg.png" alt="hourse">
-        </div>
-        <div class="footerElement">
-            <img src="./public/imgs/house_bg.png" alt="hourse">
+            <img src="./public/imgs/settings.png" alt="hourse">
         </div>
     </footer>
 

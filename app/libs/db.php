@@ -4,7 +4,7 @@ $config = [
 	'host' => 'localhost',
 	'db_name' => 'taiqazan',
 	'db_user' => 'root',
-	'db_pass' => 'root',
+	'db_pass' => '',
 ];
 
 // Данные для подключения к базе данных

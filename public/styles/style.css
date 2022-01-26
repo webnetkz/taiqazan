@@ -5,7 +5,7 @@
     header, footer - 20
 */
 :root {
-    --bgColor: rgb(19, 31, 34);
+    --bgColor: #131f22;
     --bgTwoColor: rgb(32, 47, 54);
     --bgThreeColor: rgb(55, 70, 79);
     --whiteColor: rgb(245, 245, 245);
