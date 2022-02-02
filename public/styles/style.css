@@ -14,6 +14,7 @@
     --grayColor: #51646b;
     --grayTwoColor: #37464f;
     --blueColor: #1cb0f6;
+    --blueTwoColor: #a0cbdf;
 }
 * {
     margin: 0;
@@ -22,16 +23,19 @@
 }
 html, body {
     font-family: sans-serif;
-    background-color: var(--bgColor);
+    color: var(--bgColor);
     scroll-behavior: smooth;
     overflow-x: hidden; 
-    color: var(--whiteColor);
+    background-color: var(--whiteColor);
     transition-duration: 500ms;
 }
 .logo {
     position: fixed;
-    top: 20vh;
-    left: calc(100vw - 87px - 50vw);
+    top: 10vh;
+    left: calc(50vw - 110.05px);
+    background: var(--blueTwoColor);
+    padding: 40px;
+    border-radius: 8px;
 }
 .description {
     position: fixed;
@@ -58,7 +62,7 @@ html, body {
     border-radius: 9px;
     font-size: 0.7rem;
     background-color: var(--mainTwoColor);
-    color: var(--bgColor);
+    color: var(--blueColor);
     text-transform: uppercase;
     padding: 10px 0;
     font-weight: 900;
@@ -71,15 +75,15 @@ html, body {
     width: 96vw;
     margin-left: 2vw;
     margin-right: 2vw;
-    border: 2px solid var(--grayColor);
+    border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 9px;
     font-size: 0.7rem;
-    background-color: var(--bgColor);
+    background-color: var(--blueColor);
     color: var(--mainTwoColor);
     text-transform: uppercase;
     padding: 10px 0;
     font-weight: 900;
-    border-bottom: 3px solid var(--grayColor);
+    border-bottom: 3px solid var(--blueTwoColor);
     text-align: center;
 }
 .btn-gray {
@@ -105,12 +109,12 @@ html, body {
 }
 .singin {
     display: flex;
-    color: var(--grayColor);
+    color: var(--blueColor);
     position: fixed;
     z-index: 99;
     min-width: 100vw;
     min-height: 100vh;
-    background-color: var(--bgColor);
+    background-color: var(--whiteColor);
     text-align: center;
     flex-direction: column;
 }
@@ -129,7 +133,7 @@ html, body {
 .inp {
     display: block;
     font-size: 0.8rem;
-    background-color: var(--bgTwoColor);
+    background-color: var(--whiteColor);
     width: 96vw;
     margin-left: 2vw;
     margin-right: 2vw;
@@ -144,7 +148,7 @@ html, body {
 }
 .inp:focus {
     font-size: 1rem;
-    background-color: rgb(19, 24, 27);
+    background-color: var(--blueTwoColor);
 }
 .closeShowSignin {
     width: 20px;
@@ -153,7 +157,7 @@ html, body {
     top: 15px;
 }
 .signinInputs {
-    border: 1px solid var(--grayColor);
+    border: 1px solid var(--blueColor);
     width: 96vw;
     margin-left: 2vw;
     border-radius: 9px;
@@ -162,7 +166,7 @@ html, body {
 .signinInputs input {
     display: block;
     font-size: 0.8rem;
-    background-color: var(--bgTwoColor);
+    background-color: var(--whiteColor);
     border: none;
     width: 100%;
     margin-left: 0;
@@ -170,11 +174,11 @@ html, body {
     padding: 10px 0;
     font-weight: 500;
     padding-left: 15px;
-    color: var(--grayColor);
+    color: var(--blueColor);
     outline: none;
 }
 ::-webkit-input-placeholder { 
-    color: var(--grayColor);
+    color: var(--blueColor);
 }
 .link {
     display: block;

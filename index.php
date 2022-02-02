@@ -26,7 +26,7 @@ require_once 'header.php';
         <p>Изучайте казахский с нами. Всегда бесплатно.</p>
     </div>
 
-    <button class="btn" style="position: fixed; top: 75vh;" onclick="location.href = './pages/signup.php'">Начать</button>
+    <button class="btn" style="position: fixed; top: 80vh;" onclick="location.href = './pages/signup.php'">Начать</button>
     <button class="btn-cl" style="position: fixed; top: 87vh;" onclick="location.href = './pages/signin.php'">Авторизоваться</button>
 
 

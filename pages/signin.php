@@ -31,7 +31,7 @@
         </div>
 
         <div style="margin-top: 15px;">
-            <button class="btn-gray">Войти</button>
+            <button class="btn-cl">Войти</button>
         </div>
 
         <div>
