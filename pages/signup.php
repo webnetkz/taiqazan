@@ -26,7 +26,7 @@
 
         <div class="signinInputs">
             <input type="text" name="login" value="<?php if(isset($_SESSION['login'])) { echo $_SESSION['login'];} ?>" class="inp" placeholder="Email" style="border-bottom: 1px solid var(--blueColor);border-top-left-radius: 9px;border-top-right-radius: 9px;">
-            <input type="password" name="pass" class="inp" placeholder="Пароль">
+            <input type="password" name="pass" class="inp" placeholder="Пароль" style="border-bottom: 1px solid var(--blueColor);border-top-left-radius: 9px;border-top-right-radius: 9px;">
             <input type="password" name="pass2" class="inp" placeholder="Повторите пароль" style="border-bottom-left-radius: 9px;border-bottom-right-radius: 9px;">
         </div>
 
