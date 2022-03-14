@@ -22,35 +22,9 @@
     </header>
 
     <div class="content">
-        <div style="text-align: center; border-radius: 5px;">
-            <img src="./public/imgs/screen_1.png" style=" border-radius: 7px; background: #1cb0f6;" alt="">
-        </div>
-        <div class="container">
-            <div class="levelActive"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-            <div class="level"></div>
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-            <div class="level"></div>
-        </div>
+        <div style="text-align: left; padding: 15px; border-radius: 5px; border-radius: 7px; background: #1cb0f6; margin: 10px;">
+          <h3>Настройки приложения</h3>
+        </div>       
     </div>
 
     <footer>

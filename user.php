@@ -22,35 +22,19 @@
     </header>
 
     <div class="content">
-        <div style="text-align: center; border-radius: 5px;">
-            <img src="./public/imgs/screen_1.png" style=" border-radius: 7px; background: #1cb0f6;" alt="">
+        <div style="text-align: left; padding: 15px; border-radius: 5px; border-radius: 7px; background: #1cb0f6; margin: 10px;">
+          <h3>Личные данные пользователя</h3>
+          <p>
+            <?php 
+              session_start();
+              if(!empty($_SESSION)) {
+                echo '<b>Логин:</b> '. $_SESSION['login'];
+              }
+            ?>
+          </p>
         </div>
-        <div class="container">
-            <div class="levelActive"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-            <div class="level"></div>
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-        </div>
-        <div class="container">
-            <div class="level"></div>
-            <div class="level"></div>
-        </div>
+        <button class="btn" onclick="location.href = './app/exit.php'">Выйти</button>
+       
     </div>
 
     <footer>

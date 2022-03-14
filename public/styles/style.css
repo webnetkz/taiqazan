@@ -20,6 +20,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: rgb(32, 47, 54);
 }
 html, body {
     font-family: sans-serif;
@@ -280,6 +281,7 @@ header .lives img {
     background-position: 50% 50%;
     background-size: 70%;
     margin: 10px;
+    background-color: #1cb0f6;
 }
 .levelActive {
     width: 100px;
